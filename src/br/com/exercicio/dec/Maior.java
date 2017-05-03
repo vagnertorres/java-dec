@@ -17,8 +17,11 @@ public class Maior {
 		scanner.close();
 		
 		if (numeroUm > numeroDois) {
+			
 			System.out.println("primeiro número é o maior: " + numeroUm);
+			
 		} else {
+			
 			System.out.println("segundo número é o maior: " + numeroDois);
 		}
 	}

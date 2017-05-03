@@ -16,6 +16,7 @@ public class Positivo {
 		if (numeroUm >= 0) {
 			
 			System.out.println("Número positivo");
+			
 		} else {
 			
 			System.out.println("Número Negativo");
