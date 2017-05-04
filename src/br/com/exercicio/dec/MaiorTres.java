@@ -1,3 +1,5 @@
+package br.com.exercicio.dec;
+
 import java.util.Scanner;
 
 public class MaiorTres {
