@@ -10,6 +10,8 @@ public class Turno {
 
 		System.out.println("Digite uma letra que representa o turno que você estuda: M-matutino, V-vespertino, ou N-noturno");
 		String turno = scanner.next();
+		
+		scanner.close();
 
 		if (turno.equalsIgnoreCase("m")) {
 
