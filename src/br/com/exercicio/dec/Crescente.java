@@ -8,13 +8,13 @@ public class Crescente {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Digite o primeiro número");
+		System.out.println("Digite o primeiro numero");
 		int numeroUm = scanner.nextInt();
 
-		System.out.println("Digite o segundo número");
+		System.out.println("Digite o segundo numero");
 		int numeroDois = scanner.nextInt();
 
-		System.out.println("Digite o terceiro número");
+		System.out.println("Digite o terceiro numero");
 		int numeroTres = scanner.nextInt();
 
 		scanner.close();

@@ -8,7 +8,7 @@ public class Salario {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("entre com o salário");
+		System.out.println("entre com o salario");
 		double salario = scanner.nextDouble();
 
 		scanner.close();
@@ -19,10 +19,10 @@ public class Salario {
 			double valorAumento = ((salario * aumento) / 100);
 			double salarioTotal = salario + valorAumento;
 
-			System.out.println("salário anterior: " + salario);
+			System.out.println("salario anterior: " + salario);
 			System.out.println("porcentagem de aumento: " + aumento);
-			System.out.println("aumento no salário: " + valorAumento);
-			System.out.println("salário atualizado: " + salarioTotal);
+			System.out.println("aumento no salario: " + valorAumento);
+			System.out.println("salario atualizado: " + salarioTotal);
 
 		} else if (salario <= 700) {
 
@@ -30,10 +30,10 @@ public class Salario {
 			double valorAumento = ((salario * aumento) / 100);
 			double salarioTotal = salario + valorAumento;
 
-			System.out.println("salário anterior: " + salario);
+			System.out.println("salario anterior: " + salario);
 			System.out.println("porcentagem de aumento: " + aumento);
-			System.out.println("aumento no salário: " + valorAumento);
-			System.out.println("salário atualizado: " + salarioTotal);
+			System.out.println("aumento no salario: " + valorAumento);
+			System.out.println("salario atualizado: " + salarioTotal);
 
 		} else if (salario <= 1500) {
 
@@ -41,10 +41,10 @@ public class Salario {
 			double valorAumento = ((salario * aumento) / 100);
 			double salarioTotal = salario + valorAumento;
 
-			System.out.println("salário anterior: " + salario);
+			System.out.println("salario anterior: " + salario);
 			System.out.println("porcentagem de aumento: " + aumento);
-			System.out.println("aumento no salário: " + valorAumento);
-			System.out.println("salário atualizado: " + salarioTotal);
+			System.out.println("aumento no salario: " + valorAumento);
+			System.out.println("salario atualizado: " + salarioTotal);
 
 		} else {
 
@@ -52,10 +52,10 @@ public class Salario {
 			double valorAumento = ((salario * aumento) / 100);
 			double salarioTotal = salario + valorAumento;
 
-			System.out.println("salário anterior: " + salario);
+			System.out.println("salario anterior: " + salario);
 			System.out.println("porcentagem de aumento: " + aumento);
-			System.out.println("aumento no salário: " + valorAumento);
-			System.out.println("salário atualizado: " + salarioTotal);
+			System.out.println("aumento no salario: " + valorAumento);
+			System.out.println("salario atualizado: " + salarioTotal);
 		}
 	}
 }

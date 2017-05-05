@@ -8,18 +8,18 @@ public class Positivo {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Entre com um número");
+		System.out.println("Entre com um numero");
 		int numeroUm = scanner.nextInt();
 		
 		scanner.close();
 		
 		if (numeroUm >= 0) {
 			
-			System.out.println("Número positivo");
+			System.out.println("Numero positivo");
 			
 		} else {
 			
-			System.out.println("Número Negativo");
+			System.out.println("Numero Negativo");
 		}
 	}
 }

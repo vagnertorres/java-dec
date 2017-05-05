@@ -26,7 +26,7 @@ public class FolhaPagamento {
 			double salarioLiquido = (salarioBruto - desconto);
 
 			System.out.println("isento de imposto de renda");
-			System.out.println("salário bruto: " + salarioBruto);
+			System.out.println("salario bruto: " + salarioBruto);
 			System.out.println("inss: " + inss);
 			System.out.println("fgts: " + fgts);
 			System.out.println("desconto: " + " -" + desconto);
@@ -41,7 +41,7 @@ public class FolhaPagamento {
 			double salarioLiquido = (salarioBruto - desconto);
 
 			System.out.println("de imposto de renda:" + ir);
-			System.out.println("salário bruto: " + salarioBruto);
+			System.out.println("salario bruto: " + salarioBruto);
 			System.out.println("inss: " + inss);
 			System.out.println("fgts: " + fgts);
 			System.out.println("desconto: " + " -" + desconto);
@@ -56,7 +56,7 @@ public class FolhaPagamento {
 			double salarioLiquido = (salarioBruto - desconto);
 
 			System.out.println("de imposto de renda:" + ir);
-			System.out.println("salário bruto: " + salarioBruto);
+			System.out.println("salario bruto: " + salarioBruto);
 			System.out.println("inss: " + inss);
 			System.out.println("fgts: " + fgts);
 			System.out.println("desconto: " + " -" + desconto);
@@ -71,7 +71,7 @@ public class FolhaPagamento {
 			double salarioLiquido = (salarioBruto - desconto);
 
 			System.out.println("de imposto de renda:" + ir);
-			System.out.println("salário bruto: " + salarioBruto);
+			System.out.println("salario bruto: " + salarioBruto);
 			System.out.println("inss: " + inss);
 			System.out.println("fgts: " + fgts);
 			System.out.println("desconto: " + " -" + desconto);

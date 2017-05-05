@@ -8,21 +8,21 @@ public class Maior {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Entre com o primeiro número");
+		System.out.println("Entre com o primeiro numero");
 		int numeroUm = scanner.nextInt();
 		
-		System.out.println("Entre com o segundo número");
+		System.out.println("Entre com o segundo numero");
 		int numeroDois = scanner.nextInt();
 		
 		scanner.close();
 		
 		if (numeroUm > numeroDois) {
 			
-			System.out.println("primeiro número é o maior: " + numeroUm);
+			System.out.println("primeiro número e o maior: " + numeroUm);
 			
 		} else {
 			
-			System.out.println("segundo número é o maior: " + numeroDois);
+			System.out.println("segundo número e o maior: " + numeroDois);
 		}
 	}
 }

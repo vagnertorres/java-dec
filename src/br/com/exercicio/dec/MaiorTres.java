@@ -8,28 +8,28 @@ public class MaiorTres {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("entre com o primeiro número");
+		System.out.println("entre com o primeiro numero");
 		int numeroUm = scanner.nextInt();
 
-		System.out.println("entre com o segundo número");
+		System.out.println("entre com o segundo numero");
 		int numeroDois = scanner.nextInt();
 
-		System.out.println("entre com o terceiro número");
+		System.out.println("entre com o terceiro numero");
 		int numeroTres = scanner.nextInt();
 
 		scanner.close();
 
 		if (numeroUm > numeroDois && numeroUm > numeroTres) {
 
-			System.out.println("primeiro número é o maior: " + numeroUm);
+			System.out.println("primeiro numero e o maior: " + numeroUm);
 
 		} else if (numeroDois > numeroUm && numeroDois > numeroTres) {
 
-			System.out.println("segundo número é o maior: " + numeroDois);
+			System.out.println("segundo numero e o maior: " + numeroDois);
 
 		} else if (numeroTres > numeroUm && numeroTres > numeroDois) {
 
-			System.out.println("terceiro número é o maior: " + numeroTres);
+			System.out.println("terceiro numero e o maior: " + numeroTres);
 		}
 	}
 }
