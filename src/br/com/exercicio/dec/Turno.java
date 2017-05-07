@@ -8,25 +8,25 @@ public class Turno {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Digite uma letra que representa o turno que voceª estuda: M-matutino, V-vespertino, ou N-noturno");
+		System.out.println("Digite uma letra que representa o turno que você estuda: M-matutino, V-vespertino, ou N-noturno");
 		String turno = scanner.next();
 		
 		scanner.close();
 
 		if (turno.equalsIgnoreCase("m")) {
 
-			System.out.println("periodo Matutino");
+			System.out.println("período Matutino");
 
 		} else if (turno.equalsIgnoreCase("v")) {
 
-			System.out.println("periodo Vespertino");
+			System.out.println("período Vespertino");
 
 		} else if (turno.equalsIgnoreCase("n")) {
 
-			System.out.println("periodo Noturno");
+			System.out.println("período Noturno");
 
 		} else {
-			System.out.println("periodo invalido");
+			System.out.println("período inválido");
 		}
 	}
 }

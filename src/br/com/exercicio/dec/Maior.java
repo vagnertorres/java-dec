@@ -8,10 +8,10 @@ public class Maior {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Entre com o primeiro numero");
+		System.out.println("Entre com o primeiro número");
 		int numeroUm = scanner.nextInt();
 		
-		System.out.println("Entre com o segundo numero");
+		System.out.println("Entre com o segundo número");
 		int numeroDois = scanner.nextInt();
 		
 		scanner.close();

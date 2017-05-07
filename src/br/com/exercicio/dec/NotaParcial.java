@@ -24,10 +24,10 @@ public class NotaParcial {
 
 		} else if (mediaFinal == 10) {
 			
-			System.out.println("Aprovado com distincao");
+			System.out.println("Aprovado com distinção");
 			
 		} else {
-			System.out.println("reprovado");
+			System.out.println("Reprovado");
 		}	
 	}
 }

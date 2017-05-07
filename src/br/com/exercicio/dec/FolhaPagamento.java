@@ -26,11 +26,11 @@ public class FolhaPagamento {
 			double salarioLiquido = (salarioBruto - desconto);
 
 			System.out.println("isento de imposto de renda");
-			System.out.println("salario bruto: " + salarioBruto);
+			System.out.println("salário bruto: " + salarioBruto);
 			System.out.println("inss: " + inss);
 			System.out.println("fgts: " + fgts);
 			System.out.println("desconto: " + " -" + desconto);
-			System.out.println("salario lÃ­quido: "  + "R$: " + salarioLiquido);
+			System.out.println("salário líquido: "  + "R$: " + salarioLiquido);
 
 		} else if (salarioBruto <= 1500) {
 
@@ -41,11 +41,11 @@ public class FolhaPagamento {
 			double salarioLiquido = (salarioBruto - desconto);
 
 			System.out.println("de imposto de renda:" + ir);
-			System.out.println("salario bruto: " + salarioBruto);
+			System.out.println("salário bruto: " + salarioBruto);
 			System.out.println("inss: " + inss);
 			System.out.println("fgts: " + fgts);
 			System.out.println("desconto: " + " -" + desconto);
-			System.out.println("salario lÃ­quido: "  + "R$: " + salarioLiquido);
+			System.out.println("salário líquido: "  + "R$: " + salarioLiquido);
 
 		} else if (salarioBruto <= 2500) {
 
@@ -56,11 +56,11 @@ public class FolhaPagamento {
 			double salarioLiquido = (salarioBruto - desconto);
 
 			System.out.println("de imposto de renda:" + ir);
-			System.out.println("salario bruto: " + salarioBruto);
+			System.out.println("salário bruto: " + salarioBruto);
 			System.out.println("inss: " + inss);
 			System.out.println("fgts: " + fgts);
 			System.out.println("desconto: " + " -" + desconto);
-			System.out.println("salario lÃ­quido: "  + "R$: " + salarioLiquido);
+			System.out.println("ssalário líquido: "  + "R$: " + salarioLiquido);
 
 		} else {
 
@@ -71,11 +71,11 @@ public class FolhaPagamento {
 			double salarioLiquido = (salarioBruto - desconto);
 
 			System.out.println("de imposto de renda:" + ir);
-			System.out.println("salario bruto: " + salarioBruto);
+			System.out.println("salário bruto: " + salarioBruto);
 			System.out.println("inss: " + inss);
 			System.out.println("fgts: " + fgts);
 			System.out.println("desconto: " + " -" + desconto);
-			System.out.println("salario lÃ­quido: "  + "R$: " + salarioLiquido);
+			System.out.println("salário líquido: "  + "R$: " + salarioLiquido);
 		}	
 	}
 }

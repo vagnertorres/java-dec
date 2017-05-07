@@ -22,7 +22,7 @@ public class Letra {
 			System.out.println("Feminino");
 			
 		} else {
-			System.out.println("Sexo invalido");
+			System.out.println("Sexo inválido");
 		}
 	}
 }

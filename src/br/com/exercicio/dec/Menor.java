@@ -8,31 +8,31 @@ public class Menor {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Entre com o primeiro numero");
+		System.out.println("Entre com o primeiro número");
 		int numeroUm = scanner.nextInt();
 
-		System.out.println("Entre com o segundo numero");
+		System.out.println("Entre com o segundo número");
 		int numeroDois = scanner.nextInt();
 
-		System.out.println("Entre com o terceiro numero");
+		System.out.println("Entre com o terceiro número");
 		int numeroTres = scanner.nextInt();
 
 		scanner.close();
 
 		if (numeroUm > numeroDois && numeroUm > numeroTres && numeroDois > numeroTres) {
 
-			System.out.println("primeiro numero e o maior: " + numeroUm);
-			System.out.println("terceiro numero e o menor: " + numeroTres);
+			System.out.println("primeiro número é o maior: " + numeroUm);
+			System.out.println("terceiro número é o menor: " + numeroTres);
 
 		} else if (numeroDois > numeroUm && numeroDois > numeroTres && numeroTres > numeroUm) {
 
-			System.out.println("segundo numero e o maior: " + numeroDois);
-			System.out.println("segundo numero e o menor: " + numeroUm);
+			System.out.println("segundo número é o maior: " + numeroDois);
+			System.out.println("segundo número é o menor: " + numeroUm);
 
 		} else if (numeroTres > numeroUm && numeroTres > numeroDois && numeroUm > numeroDois) {
 
-			System.out.println("terceiro numero e o maior: " + numeroTres);
-			System.out.println("segundo numero e menor: " + numeroDois);
+			System.out.println("terceiro número é o maior: " + numeroTres);
+			System.out.println("segundo número é menor: " + numeroDois);
 		}
 	}
 }
