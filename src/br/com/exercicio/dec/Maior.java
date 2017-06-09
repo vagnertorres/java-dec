@@ -18,11 +18,11 @@ public class Maior {
 		
 		if (numeroUm > numeroDois) {
 			
-			System.out.println("primeiro número e o maior: " + numeroUm);
+			System.out.println("Primeiro número e o maior: " + numeroUm);
 			
 		} else {
 			
-			System.out.println("segundo número e o maior: " + numeroDois);
+			System.out.println("Pegundo número e o maior: " + numeroDois);
 		}
 	}
 }
