@@ -18,27 +18,29 @@ public class Crescente {
 		int numeroTres = scanner.nextInt();
 
 		scanner.close();
-
-		if (numeroUm < numeroDois && numeroUm < numeroTres && numeroDois < numeroTres) {
-
-			System.out.println("ORDEM CRESCENTE");
+		
+		if (numeroUm < numeroDois && numeroUm < numeroTres & numeroDois < numeroTres) {
+			
 			System.out.println(numeroUm);
 			System.out.println(numeroDois);
 			System.out.println(numeroTres);
-
+			
 		} else if (numeroDois < numeroUm && numeroDois < numeroTres && numeroUm < numeroTres) {
-
-			System.out.println("ORDEM CRESCENTE");
+			
 			System.out.println(numeroDois);
 			System.out.println(numeroUm);
 			System.out.println(numeroTres);
-
+			
+		} else if (numeroTres < numeroUm && numeroTres < numeroDois && numeroUm < numeroDois) {
+			
+			System.out.println(numeroTres);
+			System.out.println(numeroUm);
+			System.out.println(numeroDois);
+			
 		} else {
-
-			System.out.println("ORDEM CRESCENTE");
 			System.out.println(numeroTres);
-			System.out.println(numeroUm);
 			System.out.println(numeroDois);
+			System.out.println(numeroUm);
 		}
 	}
 }
