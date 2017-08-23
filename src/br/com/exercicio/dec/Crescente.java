@@ -38,6 +38,7 @@ public class Crescente {
 			System.out.println(numeroDois);
 			
 		} else {
+			
 			System.out.println(numeroTres);
 			System.out.println(numeroDois);
 			System.out.println(numeroUm);
